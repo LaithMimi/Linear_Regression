@@ -3,7 +3,7 @@
 **see your model learn** • **interactive 3d plots** • **feature selection insights**
 
 ## 🌟 new features
-- **live training visualization** (2D & 3D)
+- **live training visualization** (2D)
 - **interactive prediction surfaces**
 - **feature importance display**
 - **convergence animation support**
@@ -23,16 +23,6 @@ fig.savefig('regression_line.png')
 ```
 ![1d regression](/image.png)
 
-### 2D regression (multiple features)
-```python
-weights, cost, fig = compute_linear_regression(
-    X, y,
-    plot=True,
-    plot_type='3d'
-)
-fig.savefig('regression_plane.png') 
-```
-![3d regression](https://matplotlib.org/stable/_images/sphx_glr_scatter3d_001.png)
 
 ## 🚀 updated quick start
 ```bash
