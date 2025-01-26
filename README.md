@@ -64,11 +64,6 @@ final cost: 54832.17
 - **lightweight**: 150 lines of focused numpy code
 - **customizable**: tweak learning rates/iterations freely
 
-## 🛠 roadmap
-- [ ] add momentum for faster convergence
-- [ ] implement early stopping
-- [ ] add jupyter notebook tutorial
-- [ ] support polynomial features
 
 ## 👥 contributions welcome!
 found a bug? have an optimization idea? 
