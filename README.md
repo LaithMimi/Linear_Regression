@@ -1,15 +1,6 @@
 ```markdown
 # 📉 Linear Regression from Scratch with Gradient Descent
 
-**implement linear regression like a pro** • **no black boxes** • **numpy-only**
-
-[![python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://python.org)
-[![license](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
-<a href="https://github.com/LaithMimi/Linear_Regression">
-  <img src="https://user-images.githubusercontent.com/7871801/198899549-3e6c3a7a-5f8d-45c4-9b81-8c0e7d5b5b2f.png" width="400" align="right" alt="gradient descent visualization">
-</a>
-
 ## 🔥 features
 - pure numpy implementation
 - automatic feature selection
