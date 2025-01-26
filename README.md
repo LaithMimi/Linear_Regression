@@ -79,11 +79,7 @@ found a bug? have an optimization idea?
 
 ---
 
-made with ❤️ by [your name] • [documentation](docs/) • [license](LICENSE)
+made with ❤️ by Laith Mimi • 
 ```
 
 
-- Works well on mobile & desktop
-- Links to future plans
-
-Adjust the [yourusername], sample data, and roadmap items as needed!
