@@ -108,16 +108,20 @@ def discard_features(X, y, max_discard):
     return mask
 
 if __name__ == "__main__":
-   # Create data with 2 features but discard 1
+ # create sample data
     X = np.random.rand(100, 2)
-    y = 2.5*X[:,0] + 1.8*X[:,1] + np.random.randn(100)*0.3
+    y = 2.5*X[:,0] + 1.8*X[:,1] + np.random.normal(0, 0.2, 100)
 
-    # Force 2D plot by discarding 1 feature
+    # run with visualization
     weights, cost, mask, fig = compute_linear_regression(
         X, y,
-        max_features_to_discard=1,  # Discard 1 feature
+        alpha=0.05,
+        max_iterations=500,
         plot=True
     )
+
+    # save visualization
+    fig.savefig('training_progress.png')
 
     print("Kept features:", np.where(mask)[0])  # Shows which feature was kept
     plt.show()
