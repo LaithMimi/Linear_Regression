@@ -21,7 +21,7 @@ weights, cost, fig = compute_linear_regression(
 )
 fig.savefig('regression_line.png')
 ```
-![1d regression](../image.png)
+![1d regression](/image.png)
 
 ### 2D regression (multiple features)
 ```python
