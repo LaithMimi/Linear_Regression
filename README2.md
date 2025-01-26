@@ -34,7 +34,7 @@ weights, cost, mask, fig = compute_linear_regression(
 # save visualization
 fig.savefig('training_progress.png')
 ```
-![2d regression](/regression_line.png)
+![2d regression](/training_progress.png)
 
 ## 🔍 visualization features
 - **real-time updates**: watch weights adjust during training
