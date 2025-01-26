@@ -9,21 +9,6 @@
 - **convergence animation support**
 - **exportable high-quality plots**
 
-## 🎨 visualization gallery
-### 1D regression (single feature)
-```python
-from visualized_linear_regression import compute_linear_regression
-
-weights, cost, fig = compute_linear_regression(
-    X, y,
-    plot=True,
-    plot_type='2d'
-)
-fig.savefig('regression_line.png')
-```
-![1d regression](/image.png)
-
-
 ## 🚀 updated quick start
 ```bash
 # install requirements
@@ -49,6 +34,7 @@ weights, cost, mask, fig = compute_linear_regression(
 # save visualization
 fig.savefig('training_progress.png')
 ```
+![2d regression](/regression_line.png)
 
 ## 🔍 visualization features
 - **real-time updates**: watch weights adjust during training
