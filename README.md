@@ -1,4 +1,3 @@
-```markdown
 # 📉 Linear Regression from Scratch with Gradient Descent
 
 ## 🔥 features
@@ -80,6 +79,5 @@ found a bug? have an optimization idea?
 ---
 
 made with ❤️ by Laith Mimi • 
-```
 
 
